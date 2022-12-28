@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "C:/git/NextTRS/src/fpga/v0.1/NextTRS/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "C:/git/NextTRS/src/fpga/v0.1/NextTRS/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top"
+ }
+]

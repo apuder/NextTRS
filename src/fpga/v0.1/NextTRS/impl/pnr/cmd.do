@@ -1,0 +1,11 @@
+-d C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\gwsynthesis\NextTRS.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\NextTRS.cst
+-cfg C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

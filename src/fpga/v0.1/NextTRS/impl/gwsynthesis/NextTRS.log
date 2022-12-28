@@ -1,0 +1,81 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v'
+Compiling module 'top'("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":2)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "CTRL_DIR" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":4)
+WARN  (EX0211) : The output port "CTRL_EN" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":5)
+WARN  (EX0211) : The output port "ABUS_DIR" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":14)
+WARN  (EX0211) : The output port "ABUS_EN" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":15)
+WARN  (EX0211) : The output port "ABUS_DIR_N" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":16)
+WARN  (EX0211) : The output port "HDMI_TX_P[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":18)
+WARN  (EX0211) : The output port "HDMI_TX_P[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":18)
+WARN  (EX0211) : The output port "HDMI_TX_P[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":18)
+WARN  (EX0211) : The output port "HDMI_TX_N[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":19)
+WARN  (EX0211) : The output port "HDMI_TX_N[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":19)
+WARN  (EX0211) : The output port "HDMI_TX_N[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":19)
+WARN  (EX0211) : The output port "HDMI_TXC_P" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":20)
+WARN  (EX0211) : The output port "HDMI_TXC_N" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":21)
+WARN  (EX0211) : The output port "DBUS_DIR" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":22)
+WARN  (EX0211) : The output port "DBUS_EN" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":23)
+WARN  (EX0211) : The output port "CASS_OUT" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":26)
+WARN  (EX0211) : The output port "MISO" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":29)
+WARN  (EX0211) : The output port "ESP_S[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":31)
+WARN  (EX0211) : The output port "ESP_S[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":31)
+WARN  (EX0211) : The output port "ESP_S[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":31)
+WARN  (EX0211) : The output port "ESP_S[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":31)
+WARN  (EX0211) : The output port "REQ" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":32)
+WARN  (EX0211) : The output port "LED[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":34)
+WARN  (EX0211) : The output port "LED[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":34)
+WARN  (EX0211) : The output port "LED[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":34)
+WARN  (EX0211) : The output port "LED[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":34)
+WARN  (EX0211) : The output port "HSYNC_O" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":38)
+WARN  (EX0211) : The output port "VSYNC_O" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":39)
+WARN  (EX0211) : The output port "VIDEO_O" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":40)
+WARN  (EX0211) : The output port "LED_GREEN" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":41)
+WARN  (EX0211) : The output port "LED_RED" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":42)
+WARN  (EX0211) : The output port "LED_BLUE" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":43)
+WARN  (EX0211) : The output port "INT" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":44)
+WARN  (EX0211) : The output port "WAIT" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":45)
+WARN  (EX0211) : The output port "EXTIOSEL" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":46)
+WARN  (EX0211) : The output port "CTRL1_EN" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":47)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input clk_in is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":3)
+WARN  (CV0016) : Input CONF is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":25)
+WARN  (CV0016) : Input CS_FPGA is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":27)
+WARN  (CV0016) : Input SCK is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":28)
+WARN  (CV0016) : Input MOSI is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":30)
+WARN  (CV0016) : Input DONE is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":33)
+WARN  (CV0016) : Input VIDEOX is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":35)
+WARN  (CV0016) : Input VSYNCX is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":36)
+WARN  (CV0016) : Input HSYNCX is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":37)
+WARN  (CV0016) : Input EXTIOSEL_IN_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":48)
+WARN  (CV0016) : Input WAIT_IN_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":49)
+WARN  (CV0017) : Inout _IN_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":6)
+WARN  (CV0017) : Inout _RD_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":7)
+WARN  (CV0017) : Inout _WR_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":8)
+WARN  (CV0017) : Inout _OUT_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":9)
+WARN  (CV0017) : Inout _RAS_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":10)
+WARN  (CV0017) : Inout _IOREQ_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":11)
+WARN  (CV0017) : Inout _M1_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":12)
+WARN  (CV0017) : Inout _RESET_N is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":13)
+WARN  (CV0017) : Inout _A is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":17)
+WARN  (CV0017) : Inout _D is unused("C:\git\NextTRS\src\fpga\v0.1\NextTRS\src\top.v":24)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\gwsynthesis\NextTRS.vg" completed
+[100%] Generate report file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\gwsynthesis\NextTRS_syn.rpt.html" completed
+GowinSynthesis finish

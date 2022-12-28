@@ -1,0 +1,297 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.09"
+//Tue Dec 27 23:21:25 2022
+
+//Source file index table:
+//file0 "\C:/git/NextTRS/src/fpga/v0.1/NextTRS/src/top.v"
+`timescale 100 ps/100 ps
+module top (
+  clk_in,
+  CTRL_DIR,
+  CTRL_EN,
+  _IN_N,
+  _RD_N,
+  _WR_N,
+  _OUT_N,
+  _RAS_N,
+  _IOREQ_N,
+  _M1_N,
+  _RESET_N,
+  ABUS_DIR,
+  ABUS_EN,
+  ABUS_DIR_N,
+  _A,
+  HDMI_TX_P,
+  HDMI_TX_N,
+  HDMI_TXC_P,
+  HDMI_TXC_N,
+  DBUS_DIR,
+  DBUS_EN,
+  _D,
+  CONF,
+  CASS_OUT,
+  CS_FPGA,
+  SCK,
+  MISO,
+  MOSI,
+  ESP_S,
+  REQ,
+  DONE,
+  LED,
+  VIDEOX,
+  VSYNCX,
+  HSYNCX,
+  HSYNC_O,
+  VSYNC_O,
+  VIDEO_O,
+  LED_GREEN,
+  LED_RED,
+  LED_BLUE,
+  INT,
+  WAIT,
+  EXTIOSEL,
+  CTRL1_EN,
+  EXTIOSEL_IN_N,
+  WAIT_IN_N
+)
+;
+input clk_in;
+output CTRL_DIR;
+output CTRL_EN;
+inout _IN_N;
+inout _RD_N;
+inout _WR_N;
+inout _OUT_N;
+inout _RAS_N;
+inout _IOREQ_N;
+inout _M1_N;
+inout _RESET_N;
+output ABUS_DIR;
+output ABUS_EN;
+output ABUS_DIR_N;
+inout [15:0] _A;
+output [2:0] HDMI_TX_P;
+output [2:0] HDMI_TX_N;
+output HDMI_TXC_P;
+output HDMI_TXC_N;
+output DBUS_DIR;
+output DBUS_EN;
+inout [7:0] _D;
+input [3:0] CONF;
+output CASS_OUT;
+input CS_FPGA;
+input SCK;
+output MISO;
+input MOSI;
+output [3:0] ESP_S;
+output REQ;
+input DONE;
+output [3:0] LED;
+input VIDEOX;
+input VSYNCX;
+input HSYNCX;
+output HSYNC_O;
+output VSYNC_O;
+output VIDEO_O;
+output LED_GREEN;
+output LED_RED;
+output LED_BLUE;
+output INT;
+output WAIT;
+output EXTIOSEL;
+output CTRL1_EN;
+input EXTIOSEL_IN_N;
+input WAIT_IN_N;
+wire VCC;
+wire GND;
+  TBUF CTRL_DIR_s0 (
+    .O(CTRL_DIR),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF CTRL_EN_s0 (
+    .O(CTRL_EN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ABUS_DIR_s0 (
+    .O(ABUS_DIR),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ABUS_EN_s0 (
+    .O(ABUS_EN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ABUS_DIR_N_s0 (
+    .O(ABUS_DIR_N),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_P_2_s0 (
+    .O(HDMI_TX_P[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_P_2_s1 (
+    .O(HDMI_TX_P[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_P_2_s2 (
+    .O(HDMI_TX_P[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_N_2_s0 (
+    .O(HDMI_TX_N[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_N_2_s1 (
+    .O(HDMI_TX_N[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TX_N_2_s2 (
+    .O(HDMI_TX_N[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TXC_P_s0 (
+    .O(HDMI_TXC_P),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HDMI_TXC_N_s0 (
+    .O(HDMI_TXC_N),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF DBUS_DIR_s0 (
+    .O(DBUS_DIR),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF DBUS_EN_s0 (
+    .O(DBUS_EN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF CASS_OUT_s0 (
+    .O(CASS_OUT),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF MISO_s0 (
+    .O(MISO),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ESP_S_3_s0 (
+    .O(ESP_S[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ESP_S_3_s1 (
+    .O(ESP_S[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ESP_S_3_s2 (
+    .O(ESP_S[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF ESP_S_3_s3 (
+    .O(ESP_S[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF REQ_s0 (
+    .O(REQ),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_3_s0 (
+    .O(LED[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_3_s1 (
+    .O(LED[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_3_s2 (
+    .O(LED[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_3_s3 (
+    .O(LED[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF HSYNC_O_s0 (
+    .O(HSYNC_O),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF VSYNC_O_s0 (
+    .O(VSYNC_O),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF VIDEO_O_s0 (
+    .O(VIDEO_O),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_GREEN_s0 (
+    .O(LED_GREEN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_RED_s0 (
+    .O(LED_RED),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_BLUE_s0 (
+    .O(LED_BLUE),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF INT_s0 (
+    .O(INT),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF WAIT_s0 (
+    .O(WAIT),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF EXTIOSEL_s0 (
+    .O(EXTIOSEL),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF CTRL1_EN_s0 (
+    .O(CTRL1_EN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* top */

@@ -7,6 +7,7 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk_audio_4" and "clkdiv0/clkdiv_inst/CLKOUT.default_gen_clk"
 [50%] Placement Phase 3 completed
 Running routing......
 [60%] Routing Phase 0 completed
@@ -25,5 +26,5 @@ Generate file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\pnr\NextTRS.pin.html" c
 Generate file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\pnr\NextTRS.rpt.html" completed
 Generate file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\pnr\NextTRS.rpt.txt" completed
 Generate file "C:\git\NextTRS\src\fpga\v0.1\NextTRS\impl\pnr\NextTRS.tr.html" completed
-Tue Dec 27 23:21:30 2022
+Thu Jan 26 21:43:14 2023
 
